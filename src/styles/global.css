@@ -11,7 +11,7 @@ html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgb(248, 248, 255) 0%, rgb(168, 202, 224) 100%);
+  background: radial-gradient(at top left, rgb(197, 197, 242) 0%, rgb(255, 255, 255) 100%);
   background-repeat: no-repeat;
 }
 p {
@@ -26,15 +26,11 @@ p {
   margin: 0 auto;
 }
 nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px auto;
-}
-nav .links {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  margin: 35px auto;
 }
+
 nav a {
   display: inline-block;
   margin-left: 20px;
@@ -43,7 +39,7 @@ nav a {
   border-bottom: 3px solid transparent;
 }
 nav a:hover {
-  border-color: white;
+  border-color: black;
 }
 footer p{
   text-align: center;
@@ -54,4 +50,14 @@ footer p{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.intro {
+display: flex;
+justify-content: flex-end;
+gap: 50px;
+}
+
+.picture-of-me {
+    border: 2px solid black;
 }
