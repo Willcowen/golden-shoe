@@ -5,13 +5,13 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: black;
+  color: rgb(0, 0, 0);;
 }
 html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgb(131, 136, 214) 0%, rgb(192, 231, 252) 100%);
+  background: radial-gradient(at top left, rgb(248, 248, 255) 0%, rgb(168, 202, 224) 100%);
   background-repeat: no-repeat;
 }
 p {
@@ -28,11 +28,12 @@ p {
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 nav .links {
-  display: inline-block;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 nav a {
   display: inline-block;
@@ -48,4 +49,9 @@ footer p{
   text-align: center;
   color: #bbb;
   margin: 40px auto;
+}
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
