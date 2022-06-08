@@ -15,8 +15,8 @@ body {
   background-repeat: no-repeat;
 }
 p {
-  margin: 16px auto;
-  line-height: 1.5em;
+  line-height: 2em;
+  font-size: 1.2em;
 }
 
 footer {
@@ -34,6 +34,10 @@ footer {
 }
 
 /* layout & nav */
+
+.topnav, footer {
+  font-size: 1.3em;
+}
 
 .layout {
   max-width: 1200px;
@@ -69,6 +73,7 @@ nav a:hover, footer a:hover, .project-title:hover {
 .intro {
 display: flex;
 justify-content: flex-end;
+align-items: center;
 gap: 50px;
 }
 
@@ -89,13 +94,20 @@ gap: 50px;
 .about-body {
   display: grid;
   grid-template-columns: 0.75fr 0.25fr;
-  /* gap: 50px; */
+}
+
+.about-me {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.screenshots {
+  display: flex;
 }
 
 .app-screenshots {
   width: 70em;
+  max-height: 30em;
   object-fit: contain;
-  border: 1px solid black;
 }
 
 .project-nav {
@@ -107,4 +119,9 @@ gap: 50px;
   display: flex;
   flex-direction: row;
   gap: 20px;
+  font-size: 1.4em;
+}
+
+.project-subtitles {
+  font-size: 1.2em;
 }

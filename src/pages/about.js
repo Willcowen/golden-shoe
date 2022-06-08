@@ -6,16 +6,27 @@ export default function About() {
     <Layout>
       <h1>About</h1>
       <div className="about-body">
+        <div className="about-me">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Hello and welcome to my website, my name’s Will and I am a full stack
+          software developer from the UK.
         </p>
-        <img src="./me-new-cartoon.jpg" alt="will" className='picture-of-me'/>
+        <p>
+          I love to write code and I especially love to solve problems with
+          code. I spend most of my time in front of a computer and I’ve always
+          had a huge passion for technology. Recently, I graduated from a Full
+          Stack Software Development course at Boolean UK. Previous to this, I
+          studied music performance and the British and Irish Institute of
+          Modern Music in Fulham, West London. On completion, I went on to tour
+          and play with an Artist called Pixel Fix.
+        </p>
+        <p>
+          With the knowledge I have gained, I hope to go on and combine my love
+          for arts and creativity with the problem solving aspects of writing
+          code.
+        </p>
+        </div>
+        <img src="./me-new-cartoon.jpg" alt="will" className="picture-of-me" />
       </div>
     </Layout>
   )

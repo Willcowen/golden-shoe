@@ -10,6 +10,7 @@ export default function WMProject() {
           className="links"
           href="https://github.com/Willcowen/will-manage-client"
           target="_blank"
+          rel="noreferrer"
           alt="will-manage-link"
         >
           Client Repo
@@ -18,6 +19,7 @@ export default function WMProject() {
           className="links"
           href="https://github.com/Willcowen/will-manage-server"
           target="_blank"
+          rel="noreferrer"
           alt="will-manage-link"
         >
           Server Repo
@@ -26,30 +28,31 @@ export default function WMProject() {
           className="links"
           href="https://will-manage-client.netlify.app/"
           target="_blank"
+          rel="noreferrer"
           alt="will-manage-link"
         >
           App
         </a>
       </nav>
       <div className="project-body">
-        <h4>Description</h4>
+        <h4 className="project-subtitles">Description</h4>
         <p>
           I have built a project management app called ‘will manage’, which
           allows users to keep track of tasks as they progress from start to
           completion. I wanted to give this ago as I knew it could make use of a
           new library, react-beautiful-dnd.{" "}
         </p>
-        <h4>Challenges</h4>
-        <li>
+        <h4 className="project-subtitles">Challenges</h4>
+        <p>
           Learning a new library. (Limited useful tutorials out there on the
           library itself)
-        </li>
-        <li>
+        </p>
+        <p>
           Trying to keep the front end ‘in sync’ with the back end. Particularly
           when dragging an item from one list to another, as the index of item
           changes on more than element. So a patch request on multiple items was
           needed for the back end to stay in sync.
-        </li>
+        </p>
       </div>
       <div className="screenshots">
         <img
