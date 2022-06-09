@@ -16,7 +16,7 @@ body {
 }
 p {
   line-height: 2em;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 footer {
@@ -93,7 +93,7 @@ gap: 50px;
 
 .about-body {
   display: grid;
-  grid-template-columns: 0.75fr 0.25fr;
+  grid-template-columns: 0.6fr 0.4fr;
 }
 
 .about-me {
@@ -124,4 +124,49 @@ gap: 50px;
 
 .project-subtitles {
   font-size: 1.2em;
+}
+
+/* CONTACT FORM */
+
+
+input[type=submit] {
+  background-color: yellow;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text], input[type=number], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(213, 230, 236, 0.666);
+  border: 1px solid black;
+  padding: 20px;
+  width: 30em;
+}
+
+.wrapper {
+  height: 30em;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
 }
