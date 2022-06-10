@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout>
       <section className={header}>
-        <div>
+        <div className="home">
           <h2>Will Cowen</h2>
           <h3>Front End Developer, based in Bristol, UK.</h3>
           <Link className={btn} to="/projects">
@@ -18,7 +18,7 @@ export default function Home() {
       </section>
       <div className="intro">
         <img src='./coder-sketch.png' alt="coder-sketch"/>
-        <p><em>“First, solve the problem. Then, write the code.”</em></p>
+        <p className="quote"><em>“First, solve the problem. Then, write the code.”</em></p>
       </div>
     </Layout>
   )

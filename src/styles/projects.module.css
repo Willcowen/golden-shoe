@@ -1,5 +1,5 @@
 .portfolio > h2 {
-  font-size: 3em;
+  font-size: 4em;
 }
 .portfolio > h3 {
   font-size: 2em;
@@ -14,3 +14,4 @@
   flex-direction: column;
   gap: 20px;
 }
+

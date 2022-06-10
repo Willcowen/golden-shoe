@@ -1,14 +1,20 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { header } from "../styles/home.module.css"
 
 export default function About() {
   return (
     <Layout>
-      <h1>About</h1>
+      <section className={header}>
+      <div className="about">
+      <h2>Me</h2>
+      <h3 className="about-subheading">Hello and welcome to my website.</h3>
+      </div>
+      </section>
       <div className="about-body">
         <div className="about-me">
         <p>
-          Hello and welcome to my website, my name’s Will and I am a full stack
+          My name is Will and I am a full stack
           software developer from the UK.
         </p>
         <p>

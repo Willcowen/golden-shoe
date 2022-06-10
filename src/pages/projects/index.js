@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <Layout>
       <div className={portfolio}>
-        <h2>My Projects</h2>
+        <h2>Work</h2>
         <div className="project-titles">
           <h3 className="project-title" onClick={() => setToggleProject(true)}>Will Manage</h3>
           <h3 className="project-title" onClick={() => setToggleProject(false)}>Tic-Tac-Toe</h3>
