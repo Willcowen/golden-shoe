@@ -39,7 +39,7 @@ export default function WMProject() {
         <p>
           I have built a project management app called ‘will manage’, which
           allows users to keep track of tasks as they progress from start to
-          completion. I wanted to give this ago as I knew it could make use of a
+          completion. I wanted to give this a go as I knew it could make use of a
           new library, react-beautiful-dnd.{" "}
         </p>
         <h4 className="project-subtitles">Challenges</h4>
