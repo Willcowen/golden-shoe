@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import { header, btn } from "../styles/home.module.css"
+import { Helmet } from 'react-helmet'
 
 export default function Home() {
 
@@ -9,6 +10,7 @@ export default function Home() {
     <Layout>
       <section className={header}>
         <div className="home">
+          <Helmet><title>{'Will Cowen'}</title></Helmet>
           <h2>Will Cowen</h2>
           <h3>Front End Developer, based in Bristol, UK.</h3>
           <Link className={btn} to="/projects">

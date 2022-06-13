@@ -14,8 +14,8 @@ body {
   background: white;
   background-repeat: no-repeat;
   margin: 10px;
-  /* overflow: visible; */
 }
+
 p {
   line-height: 2em;
   font-size: 1em;
