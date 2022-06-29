@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 
 export default function Products() {
   const [shoes, setShoes] = useState([])
+  const [moreInfo, setMoreInfo] = useState(false)
 
   useEffect(() => {
     loadShoes();
@@ -26,9 +27,11 @@ export default function Products() {
       {shoes.map(function(shoe, index){
         return (
           <li className="shoe" key={index}>
+          <div>
+          <h2 className="sub-title">{shoe.model}</h2>
+          </div>
           <img src={shoe.imgUrl} />
-          <h2>{shoe.model}</h2>
-          <p>£{shoe.price}</p>
+          <p><strong>£{shoe.price}</strong></p>
           </li>
         )
       })}

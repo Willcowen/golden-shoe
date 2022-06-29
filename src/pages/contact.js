@@ -11,8 +11,8 @@ export default function Contact() {
           FAQ's can't answer it for you, we'll be glad to answer you in person!
         </p>
       </div>
-      <div class="wrapper">
-        <div class="container">
+      <div className="wrapper">
+        <div className="container">
           <form
             action="https://formsubmit.co/1f3d26d30647e073aa8afd8c9dad0ae9"
             method="POST"
