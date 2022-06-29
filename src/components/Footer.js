@@ -3,8 +3,8 @@ import React from "react"
 export default function Footer() {
   return (
     <footer>
-        <a href="https://www.linkedin.com/in/will-cowen/" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="https://github.com/willcowen" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#" target="_blank" rel="noreferrer">Delivery</a>
+        <a href="#" target="_blank" rel="noreferrer">Returns</a>
     </footer>
   )
 }

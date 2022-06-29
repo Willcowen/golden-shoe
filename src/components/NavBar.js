@@ -4,11 +4,13 @@ import React from "react"
 export default function NavBar() {
   return (
     <nav className="topnav">
+      <div>
+      <Link to="/"><h1 className="title">Golden Shoe</h1></Link>
+      </div>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Portfolio Projects</Link>
+        <Link to="/products">Products</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/projects">Basket</Link>
       </div>
     </nav>
   )

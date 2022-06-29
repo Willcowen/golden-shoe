@@ -4,7 +4,13 @@ import Layout from "../components/Layout"
 export default function Contact() {
   return (
     <Layout>
-      <h2 className="title">Talk</h2>
+      <div className="top-of-contact">
+        <h2 className="sub-title">Here To Help!</h2>
+        <p>
+          If you have any questions, check our FAQ's for the answer. If our
+          FAQ's can't answer it for you, we'll be glad to answer you in person!
+        </p>
+      </div>
       <div class="wrapper">
         <div class="container">
           <form
@@ -34,6 +40,12 @@ export default function Contact() {
               name="phone"
               placeholder="Your phone number.."
             />
+            <h4>Enquiry Type</h4>
+            <select name="enquiry-type" id="enquiry-type">
+              <option value="Returns">Returns</option>
+              <option value="Delivery">Delivery</option>
+              <option value="General Enquiry">General Enquiry</option>
+            </select>
             <h4>Enquiry</h4>
             <textarea
               id="subject"

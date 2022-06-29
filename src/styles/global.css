@@ -7,12 +7,16 @@
   font-family: "Montserrat";
   color: rgb(0, 0, 0);;
 }
+
 html, body {
   min-height: 100vh;
 }
+
 body {
-  background: white;
-  background-repeat: no-repeat;
+  /* background-image: url('../../static/golden-shoe-background.jpg');
+  background-repeat: no-repeat, repeat; */
+  background-color: white;
+  background-size: cover;
   margin: 10px;
 }
 
@@ -48,7 +52,8 @@ footer {
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 35px auto;
 }
 
@@ -62,77 +67,32 @@ nav a, footer a {
 
 nav a:hover, footer a:hover, .project-title:hover {
   border-color: black;
-  background-color: yellow;
   cursor: pointer;
 }
 
-.logo-name {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.intro {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-gap: 50px;
-}
-
-.picture-of-me {
-  height: 300px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-/* PROJECTS AND PORTFOLIO */
-
-.project, .project-body {
+/* PRODUCTS PAGE */
+.shoe-container {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: minmax(50, auto)
+  flex-wrap: wrap;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  gap: 10px;
 }
-
-.about-body {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.about-me {
-  /* margin-right: 30px;
-  margin-top: 30px; */
-  max-width: 30em;
-}
-.screenshots {
-  display: flex;
-}
-
-.app-screenshots {
-  width: 60em;
-  height: 30em;
-  object-fit: contain;
-}
-
-.project-nav {
-  display: flex;
-  justify-content: center;
-}
-
-.project-titles {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  font-size: 1.4em;
-}
-
-.project-subtitles {
-  font-size: 1.2em;
+.shoe {
+  list-style-type: none;
+  background-color: #E9E8EB;
 }
 
 /* CONTACT FORM */
-
+.top-of-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 input[type=submit] {
   background-color: yellow;
@@ -154,7 +114,7 @@ input[type=text], input[type=number], input[type=email], select, textarea {
   resize: vertical;
 }
 
-.container {
+.container{
   border-radius: 5px;
   background-color: rgba(211, 211, 211, 0.583);
   border: 1px solid black;
@@ -164,7 +124,6 @@ input[type=text], input[type=number], input[type=email], select, textarea {
 
 .wrapper {
   height: 30em;
-  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -172,18 +131,23 @@ input[type=text], input[type=number], input[type=email], select, textarea {
 }
 
 .title {
-  font-size: 4em;
+  font-size: 1.5em;
   text-align: center;
+  color: rgb(168, 145, 12);
+}
+
+.sub-title {
+  display: inherit;
 }
 
 .input-text {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
 }
 
 /* RESPONSIVENESS */
 
-@media screen and (max-width: 1250px) {
+/* @media screen and (max-width: 1250px) {
   .quote {
     display: none;
   }
@@ -198,19 +162,6 @@ input[type=text], input[type=number], input[type=email], select, textarea {
     grid-template-columns: 1fr;
     width: minmax(100, 500);
   }
-  /* .project-body {
-    display: flex;
-    justify-content: center;
-  } */
   
-}
+} */
 
-@media screen and (max-width: 685px) {
-  .picture-of-me {
-    display: none;
-  }
-  .intro {
-    display: none;
-  }
- 
-}
