@@ -12,7 +12,7 @@ export default function Home() {
         <div className="home">
           <Helmet><title>{'Will Cowen'}</title></Helmet>
           <h2>Will Cowen</h2>
-          <h3>Front End Developer, based in Bristol, UK.</h3>
+          <h3>Full Stack Developer, based in Bristol, UK.</h3>
           <Link className={btn} to="/projects">
             My Portfolio Projects
           </Link>
