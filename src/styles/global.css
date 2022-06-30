@@ -95,6 +95,23 @@ nav a:hover, footer a:hover, .project-title:hover {
   padding-bottom: 10px;
 }
 
+/* FAQ's */
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.delivery, .returns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 /* CONTACT FORM */
 .top-of-contact {
   display: flex;
@@ -156,23 +173,5 @@ input[type=text], input[type=number], input[type=email], select, textarea {
   font-weight: bold;
 }
 
-/* RESPONSIVENESS */
 
-/* @media screen and (max-width: 1250px) {
-  .quote {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 840px) {
-  .screenshots {
-    display: none;
-  }
-  .projects {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: minmax(100, 500);
-  }
-  
-} */
 
