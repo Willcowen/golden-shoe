@@ -13,11 +13,19 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `Will Cowen`,
-        short_name: 'Portfolio',
+        name: `Golden Shoe`,
+        short_name: 'G Shoe',
         start_url: '/',
-        icon: 'src/images/mylogo.jpg'
+        icon: 'src/images/shoe.svg'
       },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images/ 
+        }
+      }
     },
 ],
   siteMetadata: {

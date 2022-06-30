@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Link } from "gatsby"
 
 export default function Contact() {
   return (
@@ -7,8 +8,15 @@ export default function Contact() {
       <div className="top-of-contact">
         <h2 className="sub-title">Here To Help!</h2>
         <p>
-          If you have any questions, check our FAQ's for the answer. If our
-          FAQ's can't answer it for you, we'll be glad to answer you in person!
+          If you have any questions, check our{" "}
+          <Link to="/faqs">
+            <strong> FAQ's</strong>
+          </Link>{" "}
+          for the answer. If our
+          <Link to="/faqs">
+            <strong> FAQ's</strong>
+          </Link>{" "}
+          can't answer it for you, we'll be glad to answer you in person!
         </p>
       </div>
       <div className="wrapper">

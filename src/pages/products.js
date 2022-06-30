@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Layout from "../components/Layout"
 
 export default function Products() {
+  
   const [shoes, setShoes] = useState([])
-  const [moreInfo, setMoreInfo] = useState(false)
 
   useEffect(() => {
     loadShoes();
@@ -14,12 +14,11 @@ export default function Products() {
     .then(function(response) {
       return response.json()
     }).then(function(json) {
-      //This is where we do stuff with the response! In this case 
-      //we just log it out
       console.log("shoes loaded!", json)
       setShoes(json.inventory)
     })
   }
+
   return (
     <Layout>
       <div>
