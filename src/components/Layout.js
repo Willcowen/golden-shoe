@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from './NavBar'
 import '../styles/global.css'
 
-export default function Layout({children}) {
+export default function Layout({children, basket}) {
   return (
     <div className="layout">
-      <Navbar />
+      <Navbar basket={basket} />
       <div className="content">
           { children }
       </div>
