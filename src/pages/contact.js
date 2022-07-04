@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <Layout>
       <div className="top-of-contact">
-        <h2 className="sub-title">Here To Help!</h2>
+        <h2 className="title">Here To Help!</h2>
         <p>
           If you have any questions, check our{" "}
           <Link to="/faqs">

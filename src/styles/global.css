@@ -85,6 +85,7 @@ nav a:hover, footer a:hover, .project-title:hover {
   background-color: white;
   padding: 20px;
   gap: 15px;
+  
 }
 
 .shoe {
@@ -95,6 +96,11 @@ nav a:hover, footer a:hover, .project-title:hover {
   padding-bottom: 10px;
   border: 1px solid grey;
   border-radius: 5px;
+  
+}
+
+.shoe-img {
+  max-width: 100%;
 }
 
 /* FAQ's */
@@ -168,11 +174,23 @@ input[type=text], input[type=number], input[type=email], select, textarea {
 
 .sub-title {
   display: inherit;
+  font-size: 1em;
 }
 
 .input-text {
   font-size: 1em;
   font-weight: bold;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#filter-options {
+  max-width: 250px;
 }
 
 
